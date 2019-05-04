@@ -1,6 +1,6 @@
 # Transductive Propagation Network
 Pytorch Code for ICLR19 paper
-*Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning.* [pdf] https://openreview.net/pdf?id=SyVuRiC5K7
+*Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning.* [pdf](https://openreview.net/pdf?id=SyVuRiC5K7)
 
 ## Requirements
 * Python 3.5
