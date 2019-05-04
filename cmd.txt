@@ -1,0 +1,20 @@
+## TPN mini-5way1shot
+python train.py --gpu=1 --n_way=5 --n_shot=1 --n_test_way=5 --n_test_shot=1 --lr=0.001 --step_size=10000 --dataset=mini --exp_name=mini_TPN_5w1s_5tw1ts_rn300_k20 --rn=300 --alpha=0.99 --k=20
+python train.py --gpu=1 --n_way=5 --n_shot=1 --n_test_way=5 --n_test_shot=1 --lr=0.001 --step_size=10000 --dataset=mini --exp_name=mini_TPN_5w1s_5tw1ts_rn30_k20 --rn=30 --k=20
+
+python test.py --gpu=1 --n_way=5 --n_shot=1 --n_test_way=5 --n_test_shot=1 --lr=0.001 --step_size=10000 --dataset=mini --exp_name=mini_TPN_5w1s_5tw1ts_rn300_k20 --rn=300 --alpha=0.99 --k=20 --iters=81500
+
+## TPN mini-5way5shot
+python train.py --gpu=1 --n_way=5 --n_shot=5 --n_test_way=5 --n_test_shot=5 --lr=0.001 --step_size=10000 --dataset=mini --exp_name=mini_TPN_5w5s_5tw5ts_rn300_k20 --rn=300 --alpha=0.99 --k=20
+python train.py --gpu=1 --n_way=5 --n_shot=5 --n_test_way=5 --n_test_shot=5 --lr=0.001 --step_size=10000 --dataset=mini --exp_name=mini_TPN_5w5s_5tw5ts_rn30_k20 --rn=30 --k=20
+
+python test.py --gpu=1 --n_way=5 --n_shot=5 --n_test_way=5 --n_test_shot=5 --lr=0.001 --step_size=10000 --dataset=mini --exp_name=mini_TPN_5w5s_5tw5ts_rn300_k20 --rn=300 --alpha=0.99 --k=20 --iters=50100
+
+
+## TPN tiered-5way1shot
+python train.py --gpu=1 --n_way=5 --n_shot=1 --n_test_way=5 --n_test_shot=1 --lr=0.001 --step_size=25000 --dataset=tiered --exp_name=tiered_TPN_5w1s_5tw1ts_rn300_k20 --rn=300 --alpha=0.99 --k=20
+
+## TPN tiered-5way5shot
+python train.py --gpu=1 --n_way=5 --n_shot=5 --n_test_way=5 --n_test_shot=5 --lr=0.001 --step_size=25000 --dataset=tiered --exp_name=tiered_TPN_5w5s_5tw5ts_rn300_k20 --rn=300 --alpha=0.99 --k=20
+
+
