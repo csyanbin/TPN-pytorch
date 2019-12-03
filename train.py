@@ -112,6 +112,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = str(args['gpu'])
 #os.environ["OMP_NUM_THREADS"] = "4"
 #os.environ["MKL_NUM_THREADS"] = "4"
 torch.set_num_threads(2)
+
+## if "THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument" error occurs on GTX 2080Ti, set the following to False
 torch.backends.cudnn.benchmark = True
 
 
