@@ -62,15 +62,9 @@ In *Proceedings of 7th International Conference on Learning Representations (ICL
 
 @inproceedings{liu2019fewTPN,
 	title={Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning},
-	author={Yanbin Liu and 
-			Juho Lee and 
-			Minseop Park and 
-			Saehoon Kim and 
-			Eunho Yang and 
-			Sungju Hwang and 
-			Yi Yang},
-booktitle={International Conference on Learning Representations},
-year={2019},
+  	author={Liu, Yanbin and Lee, Juho and Park, Minseop and Kim, Saehoon and Yang, Eunho and Hwang, Sung Ju and Yang, Yi},
+	booktitle={International Conference on Learning Representations},
+	year={2019},
 }
 
 ```
